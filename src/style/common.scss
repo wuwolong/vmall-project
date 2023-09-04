@@ -1,0 +1,131 @@
+html,
+body {
+  border-radius: 0 !important;
+  font-size: 12px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei',
+    'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif;
+}
+body * {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+body {
+  background-color: #f5f5f5;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.split::before {
+  content: '|';
+  display: inline-block;
+  margin-right: 8px;
+  width: 1px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.drop-down-icon,
+.put-away-icon {
+  display: flex;
+  align-items: center;
+}
+.drop-down-icon::after {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url('@/assets/imgs/web-drop-down.svg');
+  background-size: 16px 16px;
+}
+.put-away-icon::after {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url('@/assets/imgs/web-put-away.svg');
+  background-size: 16px 16px;
+}
+.shop-cart-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url('@/assets/imgs/web-shop-cart.svg');
+  background-size: 16px 16px;
+}
+.col-1 {
+  grid-column: span 1;
+}
+.col-2 {
+  grid-column: span 2;
+}
+.col-3 {
+  grid-column: span 3;
+}
+.col-4 {
+  grid-column: span 4;
+}
+.row-1 {
+  grid-row-start: span 1;
+}
+.row-2 {
+  grid-row-start: span 2;
+}
+.row-3 {
+  grid-row-start: span 3;
+}
+.grid-row-7 {
+  display: grid;
+  grid-template-rows: repeat(7, 24px);
+}
+.grid-row-5 {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+}
+.grid-col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-center {
+  justify-items: center;
+  align-items: center;
+}
+.grid-vertical-center {
+  align-items: center;
+}
+.grid-item-center {
+  justify-self: start;
+  align-self: center;
+}
+.grid-item-horizontally-center {
+  justify-self: start;
+}
+.grid-item-vertical-center {
+  align-self: center;
+}
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.color-333 {
+  color: #333;
+}
+.font-16-700 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.f-14 {
+  font-size: 14px;
+}
+.f-strong {
+  font-weight: 700;
+}
+.color-hoverColor {
+  color: $hoverColor;
+}
