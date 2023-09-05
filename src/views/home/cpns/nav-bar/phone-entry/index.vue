@@ -92,6 +92,8 @@ import webIphone from '@/assets/imgs/web-iphone.vue'
   position: absolute;
   right: 0;
   top: 100%;
+  z-index: 9;
+
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   background-color: #fff;

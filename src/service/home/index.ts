@@ -1,5 +1,5 @@
 import request from '../'
-import { CategoryData, ProductCategory } from '@/mock/type'
+import { CategoryData, ProductCategory, RecommendData } from '@/mock/type'
 export function reqGetCategoryData(): Promise<{
   status: number
   dataList: CategoryData
@@ -10,8 +10,14 @@ export function reqGetCategoryData(): Promise<{
 }
 
 export function reqProductCategoryData(): Promise<{
-  staus: number
+  status: number
   data: ProductCategory
 }> {
   return request.get({ url: '/getProductCategory' })
+}
+export function reqRecommendData(): Promise<{
+  status: number
+  data: RecommendData
+}> {
+  return request.get({ url: '/getRecommendData' })
 }

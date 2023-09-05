@@ -822,3 +822,46 @@ Mock.mock('/api/getProductCategory', 'get', {
     },
   ],
 })
+Mock.mock('/api/getRecommendData', 'get', {
+  status: 200,
+  data: [
+    {
+      goodId: uuidv4(),
+      goodImgUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/aa34be36c90a4fdc935806f5d473acbd.png',
+      goodName: 'HUAWEI P60',
+      desc: ['洛可可白 每一支都独一无二', 'XMAGE影像'],
+      discount: ['预订优惠100元 '],
+      newPrice: 4988,
+    },
+    {
+      goodId: uuidv4(),
+      goodImgUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/be560051397c43bba258959736f64e56.png',
+      goodName: 'HUAWEI MatePad Air',
+      desc: ['144Hz高刷全面屏'],
+      discount: ['秒杀省200', '3期0分期利息', '赠积分'],
+      newPrice: 2699,
+      oldPrice: 2899,
+    },
+    {
+      goodId: uuidv4(),
+      goodImgUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/aa34be36c90a4fdc935806f5d473acbd.png',
+      goodName: 'HUAWEI P60',
+      desc: ['洛可可白 每一支都独一无二', 'XMAGE影像'],
+      discount: ['预订优惠100元 '],
+      newPrice: 4988,
+    },
+    {
+      goodId: uuidv4(),
+      goodImgUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/be560051397c43bba258959736f64e56.png',
+      goodName: 'HUAWEI MatePad Air',
+      desc: ['144Hz高刷全面屏'],
+      discount: ['秒杀省200', '3期0分期利息', '赠积分'],
+      newPrice: 2699,
+      oldPrice: 2899,
+    },
+  ],
+})

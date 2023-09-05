@@ -1,4 +1,7 @@
 <script lang="ts" setup>
+defineOptions({
+  name: 'ProductCategory',
+})
 import { ProductCategory } from '@/mock/type'
 import { reqProductCategoryData } from '@/service/home/index.ts'
 const productCategoryData = ref<ProductCategory>()

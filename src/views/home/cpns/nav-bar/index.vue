@@ -108,6 +108,7 @@ import shoppingCart from '../nav-bar/shopping-cart/index.vue'
           position: absolute;
           top: 100%;
           right: 0;
+          z-index: 9;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -132,6 +133,7 @@ import shoppingCart from '../nav-bar/shopping-cart/index.vue'
           position: absolute;
           top: 100%;
           right: 0;
+          z-index: 9;
           display: flex;
           flex-direction: column;
           align-items: center;

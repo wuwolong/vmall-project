@@ -125,3 +125,12 @@ export interface ProductCategory {
   productName: string
   bgcUrl: string
 }
+export interface RecommendData {
+  goodId: string
+  goodImgUrl: string
+  goodName: string
+  desc: string[]
+  discount: string[]
+  newPrice: number
+  oldPrice?: number
+}

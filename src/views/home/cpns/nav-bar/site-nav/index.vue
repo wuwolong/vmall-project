@@ -150,6 +150,7 @@ import webHome from '@/assets/imgs/web-home.vue'
   position: absolute;
   right: 0;
   top: 100%;
+  z-index: 9;
   box-sizing: border-box;
   padding: 20px;
   width: 893px;

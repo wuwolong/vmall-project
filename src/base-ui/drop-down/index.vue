@@ -56,5 +56,4 @@ const iconClass = computed(() => {
   /* background-color: var(#{'--global:bcc'}); */
 }
 
-
 </style>

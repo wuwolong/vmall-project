@@ -14,6 +14,7 @@ import webShopCart from '@/assets/imgs/web-shop-cart.vue'
   position: absolute;
   right: 0;
   top: 100%;
+  z-index: 9;
 
   display: flex;
   flex-direction: column;

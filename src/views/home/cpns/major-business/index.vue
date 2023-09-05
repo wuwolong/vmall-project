@@ -1,9 +1,12 @@
 <script lang="ts" setup>
 import searchIcon from '@/assets/imgs/search-icon.vue'
+import { useScroll } from '@/utils'
+const { scrollY } = useScroll()
 </script>
 
 <template>
-  <div class="major-business">
+  <div class="spare-tire" v-if="scrollY >= 100"></div>
+  <div class="major-business" :class="{ 'fixed-top': scrollY >= 100 }">
     <div class="wrapper">
       <div class="logo">
         <a href="#">
@@ -35,6 +38,16 @@ import searchIcon from '@/assets/imgs/search-icon.vue'
 </template>
 
 <style lang="scss" scoped>
+.spare-tire {
+  height: 148px;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #fff;
+}
 .major-business {
   .wrapper {
     height: 74px;

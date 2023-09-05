@@ -24,7 +24,16 @@ body {
   width: 1px;
   color: rgba(255, 255, 255, 0.6);
 }
-
+.dicount-border {
+  margin-left: 3px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.dicount-border-highlight{
+  margin-left: 0px;
+  border: 1px solid $hoverColor;
+  color: $hoverColor;
+}
 .drop-down-icon,
 .put-away-icon {
   display: flex;
@@ -128,4 +137,8 @@ body {
 }
 .color-hoverColor {
   color: $hoverColor;
+}
+
+.m-t-24 {
+  margin-top: 24px;
 }
