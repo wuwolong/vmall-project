@@ -7,7 +7,7 @@ const { label, selfIndex } = defineProps<{ label: string; selfIndex: number }>()
 </script>
 
 <template>
-  <div class="cascader-v1-item" :data-index="selfIndex" title="v1">
+  <div class="cascader-v1-item" :data-index="selfIndex" data-title="v1">
     <span>{{ label }}</span>
     <span><right-arrow /></span>
   </div>

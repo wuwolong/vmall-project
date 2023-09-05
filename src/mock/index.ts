@@ -744,3 +744,81 @@ Mock.mock('/api/getCategoryData', 'get', {
     },
   ], //模拟的请
 })
+
+Mock.mock('/api/getProductCategory', 'get', {
+  status: 200,
+  data: [
+    {
+      productId: uuidv4(),
+      productName: '智慧办公',
+      bgcUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/53c32ea2aff7494c9252f470a6e54f20.png.webp',
+    },
+    {
+      productId: uuidv4(),
+      productName: '智慧家居',
+      bgcUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/459bb5bc07e841e0b31216f42aee0f99.png.webp',
+    },
+    {
+      productId: uuidv4(),
+      productName: 'ATO汽车',
+      bgcUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/d2f51644d1c34b42a27d046e0e6b591c.png.webp',
+    },
+    {
+      productId: uuidv4(),
+      productName: '智慧办公',
+      bgcUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/53c32ea2aff7494c9252f470a6e54f20.png.webp',
+    },
+    {
+      productId: uuidv4(),
+      productName: '智慧家居',
+      bgcUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/459bb5bc07e841e0b31216f42aee0f99.png.webp',
+    },
+    {
+      productId: uuidv4(),
+      productName: 'ATO汽车',
+      bgcUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/d2f51644d1c34b42a27d046e0e6b591c.png.webp',
+    },
+    {
+      productId: uuidv4(),
+      productName: '智慧办公',
+      bgcUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/53c32ea2aff7494c9252f470a6e54f20.png.webp',
+    },
+    {
+      productId: uuidv4(),
+      productName: '智慧家居',
+      bgcUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/459bb5bc07e841e0b31216f42aee0f99.png.webp',
+    },
+    {
+      productId: uuidv4(),
+      productName: 'ATO汽车',
+      bgcUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/d2f51644d1c34b42a27d046e0e6b591c.png.webp',
+    },
+    {
+      productId: uuidv4(),
+      productName: '智慧办公',
+      bgcUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/53c32ea2aff7494c9252f470a6e54f20.png.webp',
+    },
+    {
+      productId: uuidv4(),
+      productName: '智慧家居',
+      bgcUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/459bb5bc07e841e0b31216f42aee0f99.png.webp',
+    },
+    {
+      productId: uuidv4(),
+      productName: 'ATO汽车',
+      bgcUrl:
+        'https://res.vmallres.com/cmscdn/CN/2023-08/d2f51644d1c34b42a27d046e0e6b591c.png.webp',
+    },
+  ],
+})

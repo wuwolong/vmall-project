@@ -120,3 +120,8 @@ const v2Data = {
 export type CategoryV1Data = typeof v1Data
 export type CategoryV2Data = typeof v2Data
 export type CategoryData = typeof dataList
+export interface ProductCategory {
+  productId: string
+  productName: string
+  bgcUrl: string
+}

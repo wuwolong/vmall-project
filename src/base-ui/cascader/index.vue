@@ -13,13 +13,13 @@ const { data } = defineProps<{ data: CategoryData }>()
 const currentIndex = ref<number>(0)
 const isShowSection = ref(false)
 const handlerSelectCate = throttle(function (e: any) {
-  if ((e.target.title as string) === 'v1') {
+  if ((e.target.dataset.title as string) === 'v1') {
     const index = e.target.dataset.index
     if (index != currentIndex.value) {
       currentIndex.value = index
     }
   }
-}, 500)
+}, 200)
 </script>
 
 <template>

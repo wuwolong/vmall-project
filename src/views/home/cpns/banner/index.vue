@@ -52,7 +52,7 @@ import cascader from '@/base-ui/cascader/index.vue'
             active: index === pointer + 1 ? true : false,
             'flex-center': true,
           }"
-          @click="changePointer(index)"
+          @click="changePointer(index - 1)"
         >
           <div></div>
         </li>
